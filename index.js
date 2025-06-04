@@ -14,6 +14,6 @@ app.use("/", createProxyMiddleware({
   }
 }));
 
-app.listen(3000, () => {
-  console.log("Proxy działa na porcie 3000");
+app.listen(8000, () => {
+  console.log("Proxy działa na porcie 8000");
 });
